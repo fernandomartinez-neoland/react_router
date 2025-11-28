@@ -4,7 +4,12 @@ function App() {
   return (
     <>
       <h1>hola mundo</h1>
-      <Link to="/page">Page</Link>
+      <p>
+        <Link to="/page">Page</Link>
+      </p>
+      <p>
+        <Link to="/api">Api</Link>
+      </p>
     </>
   );
 }

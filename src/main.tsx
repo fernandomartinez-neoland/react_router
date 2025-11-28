@@ -2,7 +2,7 @@ import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
 import "./index.css";
 
-import SignRoute from "./routes/sing.route.tsx";
+import SignRoute from "./routes/Sing.route";
 
 createRoot(document.getElementById("root")!).render(
   <StrictMode>
