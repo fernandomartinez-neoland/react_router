@@ -4,6 +4,7 @@ import { Api } from "../components/Api.component";
 import App from "../App";
 import { Nuevo } from "../components/Nuevo.component";
 import { Otro } from "../components/Otro.component";
+import { PadreApi } from "../components/PadreApi.component";
 
 const router = createBrowserRouter([
   { path: "/", element: <App /> },
@@ -12,6 +13,7 @@ const router = createBrowserRouter([
     path: "/api",
     element: <Api />,
     children: [
+      { path: "", element: <PadreApi /> },
       { path: "nuevo", element: <Nuevo /> }, // <-- relativo
       { path: "otro", element: <Otro /> }, // <-- relativo
     ],

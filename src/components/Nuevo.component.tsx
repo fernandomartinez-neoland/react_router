@@ -5,6 +5,9 @@ export function Nuevo() {
     <>
       <h1>Nuevo</h1>
       <Link to="/">Home</Link>
+      <p>
+        <Link to="../otro">Otro</Link>
+      </p>
     </>
   );
 }
