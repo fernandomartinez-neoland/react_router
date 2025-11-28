@@ -1,11 +1,10 @@
-import { useState } from "react";
+import { Link } from "react-router";
 
 function App() {
-  const [count, setCount] = useState(0);
-
   return (
     <>
       <h1>hola mundo</h1>
+      <Link to="/page">Page</Link>
     </>
   );
 }
